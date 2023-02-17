@@ -50,6 +50,11 @@ int main()
 }
 /*BUT ABOVE CODE GIVES TIME COMPLEXITY OF O(n^2)
 /SO WE USE A NEW APPROACH BY CREATING A NEW VECTOR(ans) AND PUSH THE FINAL INTERVALS IN THIS VECTOR
+
+//TIME COMPLEXITY IN THIS APPROACH IS O(nlogn)
+
+
+
 / for(int i=0;i<ans.size()-1;i++){
 if(ans.empty()==1{
 ans.push_back(intervals[i]);
