@@ -48,3 +48,18 @@ int main()
         cout<<endl;
     }
 }
+/*BUT ABOVE CODE GIVES TIME COMPLEXITY OF O(n^2)
+/SO WE USE A NEW APPROACH BY CREATING A NEW VECTOR(ans) AND PUSH THE FINAL INTERVALS IN THIS VECTOR
+/ for(int i=0;i<ans.size()-1;i++){
+if(ans.empty()==1{
+ans.push_back(intervals[i]);
+}
+if(intervals[i][0]>ans.back()[1])
+{
+ans.push_back(intervals[i];
+}
+else{
+ans.back()[1]=max(intervals[i][1],ans.back()[i]); ////IMPORTANT LINE
+}
+return ans;
+}*/
