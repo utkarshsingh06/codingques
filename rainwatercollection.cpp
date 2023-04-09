@@ -26,3 +26,13 @@ int main()
     cout<<diff;
 }
 //given the bars and their width and height calculate the rain water units
+// we can also reduce time complexity by assigning left and right max of current bar
+// left[0] = arr[0];
+//     for (int i = 1; i < n; i++)
+//         left[i] = max(left[i - 1], arr[i]);
+  
+//     // Fill right array
+//     right[n - 1] = arr[n - 1];
+//     for (int i = n - 2; i >= 0; i--)
+//         right[i] = max(right[i + 1], arr[i]);
+//
